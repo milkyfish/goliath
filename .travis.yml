@@ -7,3 +7,7 @@ script: phpunit Signup.php
 notifications:
   email:
     - support@nobodyknows.kayako.com
+deploy:
+  provider: heroku
+  api_key:
+    secure: 20690eca-5101-464a-b5e6-d97e62b3bff4

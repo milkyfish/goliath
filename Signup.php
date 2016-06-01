@@ -4,6 +4,7 @@ use Data\Data as Data;
 require("Data.php");
 $data = new Data;
 
+<<<<<<< HEAD
 class Signup extends PHPUnit_Framework_TestCase
 {
     
@@ -11,6 +12,8 @@ class Signup extends PHPUnit_Framework_TestCase
         $this->assertEquals(1+1, 1);
     }
 }
+=======
+>>>>>>> refs/remotes/origin/master
 ?>
 <!doctype html>
 <html>
