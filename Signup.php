@@ -22,7 +22,7 @@ $data = new Data;
             <input type="password" name="password" /><br /> 
             <label>Repeat Password</label>
             <input type="password" name="rpassword" /><br /> 
-            <label>E-mail</label>
+            <label>Email</label>
             <input type="email" name="email" /><br /> 
             <button type="submit" name="signup" class="button">Sign Up</button>
         </form>
