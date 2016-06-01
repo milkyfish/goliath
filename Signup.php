@@ -4,16 +4,6 @@ use Data\Data as Data;
 require("Data.php");
 $data = new Data;
 
-<<<<<<< HEAD
-class Signup extends PHPUnit_Framework_TestCase
-{
-    
-    public function equalPasswords() {
-        $this->assertEquals(1+1, 1);
-    }
-}
-=======
->>>>>>> refs/remotes/origin/master
 ?>
 <!doctype html>
 <html>
@@ -32,7 +22,7 @@ class Signup extends PHPUnit_Framework_TestCase
             <input type="password" name="password" /><br /> 
             <label>Repeat Password</label>
             <input type="password" name="rpassword" /><br /> 
-            <label>E-mail</label>
+            <label>Email</label>
             <input type="email" name="email" /><br /> 
             <button type="submit" name="signup" class="button">Sign Up</button>
         </form>
